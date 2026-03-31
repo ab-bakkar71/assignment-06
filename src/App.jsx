@@ -5,32 +5,34 @@ import NavBar from './Components/NavBar'
 import Products from './Components/Products';
 import Highlights from './Components/Highlights';
 import Cart from './Components/Cart';
+import ProductTitle from './Components/ProductTitle';
 
 const fetchProduct = async() => {
   const rsc = await fetch('/data.json');
   return rsc.json();
 }
-
+const productPromise = fetchProduct();
 
 function App() {
- const productPromise = fetchProduct();
+ 
 
 const[ProductType, setProductType] = useState('products')
-const[cart, setCart]= useState([]);
+const[carts, setCarts]= useState([]);
 
   return (
     <>
-    <NavBar/>
+    <NavBar carts={carts}/>
     <Hero/>
     <Highlights/>
 
+    <ProductTitle ProductType={ProductType} carts={carts} setProductType={setProductType}/>
+
     {
-      ProductType === 'products' && <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-      <Products productPromise={productPromise} cart={cart} setCart={setCart} ProductType={ProductType} setProductType={setProductType}/>
-    </Suspense>
+      ProductType === 'products' && 
+      <Products productPromise={productPromise} carts={carts} setCarts={setCarts} ProductType={ProductType} setProductType={setProductType}/>
     }
 
-    {ProductType === 'cart' && <Cart cart={cart} setCart={setCart}/>}
+    {ProductType === 'cart' && <Cart carts={carts} setCarts={setCarts}/>}
 
     </>
   )

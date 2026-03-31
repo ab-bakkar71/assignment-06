@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
-const ProductCard = ({ products, setCart, cart }) => {
+const ProductCard = ({ products, setCarts, carts }) => {
     
     const[isBuy, setIsBuy]= useState(false)
     const handelBuyNow =() => {
         setIsBuy(true);
-    const isFound = cart.find((item) => item.id === cart.id);
+    const isFound = carts.find((products) => products.id === carts.id);
     if(isFound){
         toast.error('Product already in cart!')
         return
     }
-    setCart([...cart, products])
+    setCarts([...carts, products])
     toast.success('Product added Successful!')
 
     }
@@ -46,7 +46,7 @@ const ProductCard = ({ products, setCart, cart }) => {
                         }
                     </ul>
                     <div className="mt-6">
-                        <button onClick={handelBuyNow} className="btn btn-primary btn-block">Buy Now</button>
+                        <button onClick={handelBuyNow} className={`${isBuy ? "btn btn-success btn-block" : "btn btn-primary btn-block"}`}>{isBuy ? ' Added to cart!' : 'Buy Now'}</button>
                     </div>
                 </div>
             </div>
