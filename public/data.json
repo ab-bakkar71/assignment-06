@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "title": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and\nmarketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/2593/2593549.png",
+    "status": "best sell",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker",
+      "Plagiarism detection",
+      "Multi-language support"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Design Templates Pack",
+    "description": "2000+ premium templates for social media,\npresentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055666.png",
+    "status": "popular",
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license",
+      "Source file access (PSD/AI)",
+      "Premium fonts included"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos,\nand graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/1042/1042339.png",
+    "status": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution required",
+      "Daily new uploads",
+      "High-resolution downloads"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Video Creator AI",
+    "description": "Transform text prompts into stunning 4K videos\nwith realistic AI avatars and voiceovers.",
+    "price": 59,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/3048/3048425.png",
+    "status": "popular",
+    "features": [
+      "4K Export quality",
+      "AI Voiceovers (100+ voices)",
+      "100+ Realistic avatars",
+      "Auto-captioning",
+      "Background removal"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "SEO Optimizer Bot",
+    "description": "Automate your keyword research and on-page\nSEO to rank higher on Google search.",
+    "price": 199,
+    "period": "yearly",
+    "image": "https://cdn-icons-png.flaticon.com/512/1152/1152912.png",
+    "status": "best sell",
+    "features": [
+      "Keyword tracking",
+      "Backlink analysis",
+      "Competitor audits",
+      "Weekly PDF reports",
+      "Google Search Console integration"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Code Assistant Pro",
+    "description": "Smart autocomplete and bug detection for\nover 20+ programming languages.",
+    "price": 15,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/2010/2010990.png",
+    "status": "new",
+    "features": [
+      "Real-time debugging",
+      "Git integration",
+      "Custom snippets",
+      "AI code refactoring",
+      "Security vulnerability scan"
+        
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Voice Synthesis Hub",
+    "description": "Convert any text into natural sounding speech\nwith human-like emotion and tone.",
+    "price": 35,
+    "period": "one-time",
+    "image": "https://cdn-icons-png.flaticon.com/512/1458/1458273.png",
+    "status": "popular",
+    "features": [
+      "50+ Languages",
+      "Emotional range control",
+      "MP3/WAV export",
+      "Batch conversion",
+      "API access"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Chatbot Builder AI",
+    "description": "Build intelligent customer support bots\nwithout writing a single line of code.",
+    "price": 45,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/2040/2040946.png",
+    "status": "best sell",
+    "features": [
+      "CRM integration",
+      "24/7 Automation",
+      "No-code builder",
+      "Omnichannel support",
+      "Sentiment analysis"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Image Upscaler Max",
+    "description": "Enhance low-resolution photos to 8K quality\nwhile preserving fine details and textures.",
+    "price": 99,
+    "period": "yearly",
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828304.png",
+    "status": "new",
+    "features": [
+      "8K Resolution output",
+      "Batch processing",
+      "Noise reduction",
+      "Face enhancement AI",
+      "AI sharpening enhancement"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Data Analyst AI",
+    "description": "Upload spreadsheets and get instant visual\ninsights and predictive trend analysis.",
+    "price": 79,
+    "period": "monthly",
+    "image": "https://cdn-icons-png.flaticon.com/512/4221/4221419.png",
+    "status": "popular",
+    "features": [
+      "Auto-generated charts",
+      "Predictive modeling",
+      "Export to PDF/Excel",
+      "Data cleaning bot",
+      "Real-time dashboards"
+    ]
+  }
+]
