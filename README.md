@@ -109,4 +109,7 @@ The platform provides a clean UI, real-time cart management, and instant feedbac
 - Fully responsive design  
 - Smooth transitions & interactions  
 - Real-time feedback system  
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99f75476a1bc54191f8a3e20455101af3b5f8eaf
