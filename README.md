@@ -1,16 +1,113 @@
-# React + Vite
+# 🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application to explore and purchase premium digital tools with a smooth and interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Overview
 
-## React Compiler
+**DigiTools** is a React-based web app where users can browse a collection of premium digital tools, view their features, and add them to a cart for purchase.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The platform provides a clean UI, real-time cart management, and instant feedback using toast notifications.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌐 Live Preview
+
+🔗 https://premium-digital-tools.netlify.app/
+
+---
+
+## ⚙️ Technologies Used
+
+- ⚛️ React.js  
+- 🎨 Tailwind CSS  
+- 🌼 DaisyUI  
+- 🧠 JavaScript (ES6+)  
+- 🔔 React-Toastify  
+- 📦 JSON (for product data)
+
+---
+
+## ✨ Key Features
+
+### 🛍️ 1. Dynamic Product Listing
+- Products are fetched from JSON data  
+- Each card displays:
+  - Tool name  
+  - Price & duration  
+  - Features list  
+
+---
+
+### 🛒 2. Smart Cart System
+- Add products using **Buy Now** button  
+- Prevents duplicate items  
+- Shows:
+  - Product name  
+  - Individual price  
+  - Total price calculation  
+
+---
+
+### ❌ 3. Remove Items from Cart
+- Each cart item has a **Remove** button  
+- Instantly updates total price  
+
+---
+
+### 💳 4. Payment Simulation
+- "Proceed to Checkout" button:
+  - Clears all cart items  
+  - Shows success message  
+
+---
+
+### 🔔 5. Toast Notifications
+- Item added  
+- Item removed  
+- Payment successful  
+- Duplicate item warning  
+
+---
+
+### 🔄 6. Product & Cart Toggle
+- Switch between:
+  - 🧩 Product Section  
+  - 🛒 Cart Section  
+
+---
+
+### 📊 7. Highlight Section
+- Displays:
+  - 👥 50K+ Active Users  
+  - 🧰 200+ Tools  
+  - ⭐ 4.9 Rating  
+
+---
+
+### 🚀 8. Get Started Section
+- Step-by-step guide for users:
+  - Create account  
+  - Choose tools  
+  - Start using  
+
+---
+
+### 💰 9. Pricing Plans
+- 3 different plans:
+  - Starter  
+  - Pro  
+  - Enterprise  
+- Each shows features & benefits  
+
+---
+
+## 🎯 User Experience
+
+- Clean and modern UI  
+- Fully responsive design  
+- Smooth transitions & interactions  
+- Real-time feedback system  
+
+---
