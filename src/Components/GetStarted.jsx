@@ -5,7 +5,7 @@ import Package from '../assets/package.png';
 const GetStarted = () => {
     return (
         <div className='bg-slate-50 py-30'>
-            <div className='max-w-300 mx-auto w-[90%] text-center space-y-2'>
+            <div className='max-w-6xl mx-auto w-[90%] text-center space-y-2'>
                 <h1 className='text-gray-900 text-2xl md:text-5xl font-extrabold '>Get Started in 3 Steps</h1>
                 <p className='mb-10 text-slate-500'>Start using premium digital tools in minutes, not hours.</p>
             

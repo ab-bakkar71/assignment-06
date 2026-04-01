@@ -7,7 +7,8 @@ const ProductCard = ({ products, setCarts, carts }) => {
     const[isBuy, setIsBuy]= useState(false)
     const handelBuyNow =() => {
         setIsBuy(true);
-    const isFound = carts.find((products) => products.id === carts.id);
+    const isFound = carts.find(item => item.id === products.id);
+
     if(isFound){
         toast.error('Product already in cart!')
         return

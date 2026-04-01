@@ -4,8 +4,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const NavBar = ({carts}) => {
     return (
-        <nav className='bg-base-100 shadow-sm'>
-            <div className="navbar max-w-300 mx-auto">
+        <nav className='bg-base-100 shadow-sm fixed w-full z-10'>
+            <div className="navbar max-w-6xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
