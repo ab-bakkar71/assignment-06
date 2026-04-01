@@ -7,6 +7,7 @@ import Highlights from './Components/Highlights';
 import Cart from './Components/Cart';
 import ProductTitle from './Components/ProductTitle';
 import GetStarted from './Components/GetStarted';
+import Pricing from './Components/Pricing';
 
 const fetchProduct = async() => {
   const rsc = await fetch('/data.json');
@@ -36,6 +37,7 @@ const[carts, setCarts]= useState([]);
     {ProductType === 'cart' && <Cart carts={carts} setCarts={setCarts}/>}
 
     <GetStarted/>
+    <Pricing/>
 
     </>
   )

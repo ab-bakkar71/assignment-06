@@ -5,7 +5,11 @@ import Package from '../assets/package.png';
 const GetStarted = () => {
     return (
         <div className='bg-slate-50 py-30'>
-            <div className=' max-w-300 mx-auto w-[90%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 '>
+            <div className='max-w-300 mx-auto w-[90%] text-center space-y-2'>
+                <h1 className='text-gray-900 text-2xl md:text-5xl font-extrabold '>Get Started in 3 Steps</h1>
+                <p className='mb-10 text-slate-500'>Start using premium digital tools in minutes, not hours.</p>
+            
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7.5 '>
                 <div className='relative flex flex-col justify-center items-center bg-white p-6 py-15 rounded-md shadow space-y-4 text-center'>
                     <div className='bg-purple-100 p-5 rounded-full'>
                         <img src={User} alt="User Icon" />
@@ -36,6 +40,7 @@ const GetStarted = () => {
                         03
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );
