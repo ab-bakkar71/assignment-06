@@ -110,4 +110,3 @@ The platform provides a clean UI, real-time cart management, and instant feedbac
 - Smooth transitions & interactions  
 - Real-time feedback system  
 
----
